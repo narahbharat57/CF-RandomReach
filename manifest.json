@@ -1,0 +1,20 @@
+{
+    "manifest_version":3,
+    "name":"CF RandomReach",
+    "version":"1.0",
+    "author":"Abhinaba",
+    "description":"A chrome extension to give a random question from codeforces!!",
+    "icons":{
+        "16":"icons/icon.png"
+    },
+    "action":{
+        "default_icon":"icons/icon.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":
+        [
+            "tabs",
+            "contextMenus",
+            "notifications"
+        ]
+}
